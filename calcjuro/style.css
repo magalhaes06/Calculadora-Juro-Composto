@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(135deg, dodgerblue, cyan);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: grid;
+    padding: 15px;
+    outline: none;
+    border: 0 none;
+    border-bottom: 1px solid black;
+    background-color: dodgerblue;
+    
+}
+
+button {
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none 0;
+}
+
+#number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
